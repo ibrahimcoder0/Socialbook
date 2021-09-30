@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-contain">
+        <div class="nav-left">
+            <img src="images/logo2.png" alt="" class="logo">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-icon users" onclick="ssettingMenuToggle()">
+                <img src="images/profile.jpg" alt="">
+            </div>
+        </div>
+
+    
+        <!-- setting menu -->
+        <div class="ssetting-menu">
+
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile ">
+                    <a href="index.html"><img src="images/profile.jpg" alt=""></a>
+                    <div>
+                        <p>Developar Ibrahim </p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" alt="" class="setiing-icon">
+                    <a href="#">Settings & privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" alt="" class="setiing-icon">
+                    <a href="#">Help & Suppot <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" alt="" class="setiing-icon">
+                    <a href="#">Display & Accessility <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" alt="" class="setiing-icon">
+                    <a href="#">Logout <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- profile page -->
+    <div class="profile-contain">
+        <img src="images/images5.jpg" alt="" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.jpg" alt="" class="pd-img">
+                    <div>
+                        <h3>Developar Ibrahim</h3>
+                        <p>576 Friends - 40 mutual</p>
+                        <img src="images/profile1.jpg" alt="">
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button">Friend <img src="images/add-friends.png" alt=""></button>
+                <button type="button">Message <img src="images/message.png" alt=""></button>
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in yourself and you can do unbelievable things. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png" alt=""> Diroctor at 99media Ltd</li>
+                        <li><img src="images/profile-study.png" alt=""> Studied at Togra Darul Islam Kamil Madrasah</li>
+                        <li><img src="images/profile-study.png" alt=""> Went to Togra Darul Islam Kamil Madrasah</li>
+                        <li><img src="images/profile-home.png" alt=""> Lives in Dhaka, Bangladesh</li>
+                        <li><img src="images/profile-location.png" alt=""> From Pirojpur, Chittagong, Bangladesh</li>
+                        <li><a href="#"><i class="fas fa-angle-down"></i>See more</a></li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="titel-box">
+                        <h3>Photos</h3>
+                       <a href="#">All photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/images1.jpg" alt=""></div>
+                        <div><img src="images/images2.jpg" alt=""></div>
+                        <div><img src="images/images3.jpg" alt=""></div>
+                        <div><img src="images/images4.jpg" alt=""></div>
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/photo2.png" alt=""></div>
+                        <div><img src="images/photo3.png" alt=""></div>
+                        <div><img src="images/photo4.png" alt=""></div>
+                        <div><img src="images/photo5.png" alt=""></div>
+                        <div><img src="images/photo6.png" alt=""></div>
+                        <div><img src="images/photo1.png" alt=""></div>
+                        <div><img src="images/profile.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="profile-intro">
+                    <div class="titel-box">
+                        <h3>Friends</h3>
+                       <a href="#">See All Friends</a>
+                    </div>
+                    <p>599 (69--mutual)</p>
+                    <div class="friend-box">
+                        <div><img src="images/member-1.png" alt=""><p>Sumi Aktar </p></div>
+                        <div><img src="images/member-2.png" alt=""><p>Ali Hosen</p></div>
+                        <div><img src="images/member-3.png" alt=""><p>Sima Aktar</p></div>
+                        <div><img src="images/member-4.png" alt=""><p>Friends L</p></div>
+                        <div><img src="images/member-5.png" alt=""><p>Anthony E</p></div>
+                        <div><img src="images/member-6.png" alt=""><p>Rumana</p></div>
+                        <div><img src="images/member-7.png" alt=""><p>Sultan Ali</p></div>
+                        <div><img src="images/member-8.png" alt=""><p>Bradon</p></div>
+                        <div><img src="images/member-9.png" alt=""><p>James Doe</p></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="post-col">
+                <div class="post-container">
+                    <div class="user-profile">
+                        <img src="images/profile.jpg" alt="">
+                        <div>
+                            <p>Developar Ibrahim </p>
+                            <small>Public<i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input">
+                        <textarea rows="3" placeholder="What's on your mind "></textarea>
+                        <div class="post-links">
+                            <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Photo</a>
+                            <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"The biggest surprise in life is that 'death' will suddenly come and surprise everyone one day, ..."</p>
+                    <img src="images/images3.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Developar Jonh Doe </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"The biggest surprise in life is that 'death' will suddenly come and surprise everyone one day, ..."</p>
+                    <img src="images/feed-image-1.png" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like-blue.png" alt="">
+                                 220
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 70
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 1
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile1.jpg" alt="">
+                            <div>
+                                <p>Mohiuddin Iqbal</p>
+                                <span>June 14 2021 4:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"I like those who criticize me, because they talk less about themselves and more about me. "</p>
+                    <img src="images/story3.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like-blue.png" alt="">
+                                 100
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 19
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 5
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Developars </p>
+                                <span>May 24 2021 11:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">one day you will love me the way i love you, one day you will think of me, the way i think of you , one day you will miss me like i keep missing you.......!</p>
+                    <img src="images/feed-image-2.png" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 150
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 70
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 90
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Developars </p>
+                                <span>May 24 2021 11:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">one day you will love me the way i love you, one day you will think of me, the way i think of you , one day you will miss me like i keep missing you.......!</p>
+                    <img src="images/feed-image-2.png" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 150
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 70
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 90
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Developars </p>
+                                <span>May 24 2021 11:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">one day you will love me the way i love you, one day you will think of me, the way i think of you , one day you will miss me like i keep missing you.......!</p>
+                    <img src="images/feed-image-2.png" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 150
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 70
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 90
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile.jpg" alt="">
+                            <div>
+                                <p>Developar Ibrahim </p>
+                                <span>March 24 2021 9:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">"Don't be afraid to think about what people will think, ... remember life is not yours ..."</p>
+                    <img src="images/images2.jpg" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 120
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 50
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 10
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-user-contain">
+                    <div class="row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Developars </p>
+                                <span>May 24 2021 11:56pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text">one day you will love me the way i love you, one day you will think of me, the way i think of you , one day you will miss me like i keep missing you.......!</p>
+                    <img src="images/feed-image-2.png" alt="" class="post-icon">
+                    <div class="row-icon">
+                        <div class="icon">
+                            <div>
+                                <img src="images/like.png" alt="">
+                                 150
+                            </div>
+                            <div>
+                                <img src="images/comments.png" alt="">
+                                 70
+                            </div>
+                            <div>
+                                <img src="images/share.png" alt="">
+                                 90
+                            </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile.jpg" alt="">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+       
+    <div class="footer">
+        <p>© Copyright 2021 - All Rights Reserved By Developar Ibrahim</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
